@@ -26,8 +26,8 @@ board.on('ready', function(){
 
   //Turn off the led pulse loop after 10 seconds shwn in ms
 
-  this.wait(10000, function() {
-    led.stop().off();
-  });
+  // this.wait(10000, function() {
+  //   led.stop().off();
+  // });
   console.log("I'm pulsing!")
 });
