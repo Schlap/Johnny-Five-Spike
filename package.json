@@ -1,0 +1,19 @@
+{
+  "name": "nodebot",
+  "version": "1.0.0",
+  "description": "tester for arduino board",
+  "main": "laser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Schlap/node-bot-arduino-uno.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Schlap/node-bot-arduino-uno/issues"
+  },
+  "homepage": "https://github.com/Schlap/node-bot-arduino-uno"
+}
