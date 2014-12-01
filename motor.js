@@ -6,20 +6,16 @@ board = new five.Board();
 board.on("ready", function() {
   // Create a new `motor` hardware instance.
   motor = new five.Motor({
-    pin: 5
-  });
+        pins: {
+          pwm: 5,
+          dir: 4}
+        });
 
-  motor1 = new five.Motor({
-    pin: 6
-  });
+  motor1 = new five.Motor([3, 2]);
 
-  motor2 = new five.Motor({
-    pin: 3 
-  });
+  motor2 = new five.Motor([6, 7]);
 
-  motor3 = new five.Motor({
-    pin: 9
-  });
+  motor3 = new five.Motor([9, 8]);
   // Inject the `motor` hardware into
   // the Repl instance's context;
   // allows direct command line access

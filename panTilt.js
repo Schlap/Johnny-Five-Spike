@@ -4,13 +4,13 @@ var board = new five.Board();
 board.on('ready', function(){
 
   var claw = new five.Servo({
-    pin: 11,
-    range: [0, 160],
+    pin: 9,
+    range: [0, 180],
     center: true
   });
 
   var arm = new five.Servo({
-    pin: 12,
+    pin: 10,
     range: [0, 180],
     center: true
   });
@@ -19,4 +19,5 @@ board.on('ready', function(){
     claw: claw,
     arm: arm
   });
+// control through command line
 });
