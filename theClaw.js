@@ -10,7 +10,7 @@ board.on('ready', function(){
   });
 
   var arm = new five.Servo({
-    pin: 12,
+    pin: 10,
     range: [0, 180],
     center: true
   });
